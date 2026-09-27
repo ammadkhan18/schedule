@@ -1,0 +1,28 @@
+{
+  "wastage_defaults": {
+    "concrete_pct": 5.0,
+    "steel_pct": 3.0,
+    "brick_block_pct": 5.0,
+    "plaster_pct": 10.0,
+    "formwork_pct": 5.0,
+    "flooring_pct": 5.0,
+    "paint_pct": 5.0,
+    "misc_pct": 5.0
+  },
+  "steel_thumb_rule_kg_per_m3": {
+    "footing": [60, 80, 100],
+    "column": [140, 170, 200],
+    "beam": [110, 135, 160],
+    "slab": [70, 85, 100],
+    "stair": [80, 100, 120],
+    "lintel": [60, 80, 100]
+  },
+  "pcc_thickness_m": 0.075,
+  "plinth_height_m": 0.6,
+  "excavation_working_space_m": 0.15,
+  "parapet_height_m": 0.9,
+  "founding_depth_m": 1.5,
+  "footing_thickness_m": 0.45,
+  "preliminaries_pct_of_civil_subtotal": 8.0,
+  "contingency_pct_default": 5.0
+}
