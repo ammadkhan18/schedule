@@ -1,0 +1,5 @@
+# OPTIONAL: enables the EasyOCR text-hint pass in Step 2.
+# Heavy (pulls in PyTorch, several hundred MB) - do NOT use on Streamlit
+# Community Cloud's free tier; fine for local runs or a larger host.
+-r requirements.txt
+easyocr

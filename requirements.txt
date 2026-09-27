@@ -1,0 +1,15 @@
+# Pinned to the versions this release was tested with (Python 3.11 runtime,
+# see runtime.txt). Bump deliberately and re-run `pytest` after upgrading.
+streamlit==1.64.0
+groq==1.7.0
+pymupdf==1.28.2
+opencv-python-headless==4.13.0.92
+pandas==3.0.2
+pydantic==2.13.5
+openpyxl==3.1.5
+reportlab==4.4.10
+Pillow==12.1.1
+numpy==2.4.4
+# Optional OCR (EasyOCR + PyTorch) is NOT included here - it is too heavy
+# for Streamlit Community Cloud's free tier (~1 GB RAM). To enable it on a
+# bigger host:  pip install -r requirements-ocr.txt
